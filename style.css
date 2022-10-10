@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	color: #fff;
+	background:url('overlay.png'),url('banner.png');
+	font-family: 'Montserrat', sans-serif;
+}
+.banner{
+	height: 100vh;
+	width: 100%;
+	background-position: top;
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.banner .navbar{
+	margin-top:4%;
+}
+.banner .navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+}
+.banner .nav{
+	margin-right:10%; 
+}
+.banner .nav li a{
+	color:#aaa;
+	font-size: 1.2em;
+}
+.banner .info{
+	margin-top:15%;
+	transform: translateY(-15%);
+}
+.banner .info h1{
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.banner .info p{
+	font-size: 2em;
+	font-weight: 500;
+	/* color: #aaa; */
+	letter-spacing: 2px;
+}
+.banner .info a{
+	margin-left:50%;
+	transform: translateX(-50%);
+	color: #fff;
+	background: #212529;
+	padding:10px 20px; 
+	font-size: 2em;
+	font-weight: 600;
+}
+.banner .info a:hover{
+	background: #212529;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a :hover {
+	text-decoration: none;
+	color: white;
+}
+
+div {
+	text-decoration: none;
+	color: white;
+}
+
+div :hover {
+	text-decoration: none;
+	color: white;
+}
+
+body::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background: hsla(0,0%,66.3%,.31);
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-track {
+    background: hsla(0,0%,85.5%,.25);
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
